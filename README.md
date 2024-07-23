@@ -22,8 +22,9 @@ The primary goal of the Cloud Resume Challenge is to create a serverless web app
 ### Key Steps followed
 
 1. **Designed the overall system:**
-    After drafting on a piece of paper, I drew the following diagram on ([draw.io] (https://draw.io))
-        ![CRC drawio(1)](https://github.com/user-attachments/assets/bbe2f656-a627-4ae0-b3af-3b3a01699f16)
+    After drafting on a piece of paper, I drew the following diagram on ([draw.io](https://draw.io))
+        ![CRC drawio(1)](https://github.com/user-attachments/assets/9f69c83d-beda-495e-8cf0-253520d5fa16)
+
 
 2. **Provisioning AWS services using Terraform:**
     Wrote HCL code on main.tf and provisioned all the services required, extensively used the ([Terraform documentation / registry](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)) when writing, also used VS Code Terraform Extension.
