@@ -43,6 +43,4 @@ The primary goal of the Cloud Resume Challenge is to create a serverless web app
     Created **GET method for API Gateway** and enabled CORS, so that the website gets the response it needs. And ofcourse, deployed the API on 'prod' stage.
     Created **'A' record** for *jote.dev* hosted zone in **Route 53**, a third record in addition to NS and SOA
 
-6. 
-
 I really enjoyed doing this project and I believe I will continue on other projects of CRC like the kubernettes, azure and terraform challenges.
