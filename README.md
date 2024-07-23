@@ -26,12 +26,12 @@ The primary goal of the Cloud Resume Challenge is to create a serverless web app
         ![CRC drawio(1)](https://github.com/user-attachments/assets/bbe2f656-a627-4ae0-b3af-3b3a01699f16)
 
 2. **Provisioning AWS services using Terraform:**
-    Wrote HCL code on main.tf and provisioned all the services required, extensively used the ([Terraform documentation / registry] (https://registry.terraform.io/providers/hashicorp/aws/latest/docs)) when writing, also used VS Code Terraform Extension.
+    Wrote HCL code on main.tf and provisioned all the services required, extensively used the ([Terraform documentation / registry](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)) when writing, also used VS Code Terraform Extension.
 
 3. **Writing HTML and CSS for the website**. The easiest one. 
     Then uploaded to a separate repo, so that I can manage it separately and 
     implemented github action to update the S3 bucket created for the website hosting
-    ([Github repo for  website files] (https://github.com/amanuelararso/website-files-for-AWS-CRC))
+    ([Github repo for  website files](<https://github.com/amanuelararso/website-files-for-AWS-CRC)>))
 
 4. **Python code for lambda**:
     I used boto3 library to write a code to update a count on DynamoDB table called 'visitorCount'. The code returns a response code of 200 for successfull run and a body consisting of {'visitor_count': new_count} as a JSON.
